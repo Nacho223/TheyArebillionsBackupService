@@ -69,13 +69,15 @@ namespace FuckTheyAreBillions
                 string[] temp = Directory.GetFiles(path);
                 if (temp.Length != savegames.Length && temp.Length != 0)
                 {
-                    Copy(temp);
+                    savegames = Directory.GetFiles(path);
+                    Copy(savegames);
                 }
                 else
                 {
                     if (CheckFiles(temp))
                     {
-                        Copy(temp);
+                        savegames = Directory.GetFiles(path);
+                        Copy(savegames);
                     }
                 }
             }
@@ -104,10 +106,13 @@ namespace FuckTheyAreBillions
             Directory.CreateDirectory(folder);
             foreach (string s in saves)
             {
-                string filename = s.Replace(path, string.Empty);
-                File.Copy(s, folder + @"\" + filename);
-                filesbackup.Add(filename);
-                filesbackup.Add(File.GetLastWriteTime(s).ToString());
+                if (!s.Contains("_Backup"))
+                {
+                    string filename = s.Replace(path, string.Empty);
+                    File.Copy(s, folder + @"\" + filename);
+                    filesbackup.Add(filename);
+                    filesbackup.Add(File.GetLastWriteTime(s).ToString());
+                }
             }
             dataBackup = string.Join("|", filesbackup);
             File.WriteAllText(myPath + @"\SaveInfo.txt", dataBackup);
@@ -149,13 +154,16 @@ namespace FuckTheyAreBillions
             {
                 foreach (string s in saves)
                 {
-                    string r = s.Replace(path, string.Empty);
-                    var t = mySaves.Where(a => a.filename == r).Select(a => a.lastmodified);
-                    string date = t.ElementAt(0).ToString();
-                    string datecompare = File.GetLastWriteTime(s).ToString();
-                    if (datecompare != date)
+                    if (!s.Contains("_Backup"))
                     {
-                        canCopy = true;
+                        string r = s.Replace(path, string.Empty);
+                        var t = mySaves.Where(a => a.filename == r).Select(a => a.lastmodified);
+                        string date = t.ElementAt(0).ToString();
+                        string datecompare = File.GetLastWriteTime(s).ToString();
+                        if (datecompare != date)
+                        {
+                            canCopy = true;
+                        }
                     }
                 }
 
