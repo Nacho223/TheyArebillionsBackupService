@@ -1,5 +1,7 @@
 # They Are Billions Backup Service
-Windows Service that autobackups save folder each time the game modifies a file. It saves everything in "Documents\My Games\Fuck Numantian Games\Saves" in separate folders ordered by DateTime, so you can roll back to the moment you want.
+Windows Service that autobackups save folder each time the game modifies a file.
+
+It saves every file stored in "Documents\My Games\They Are Billions" in "Documents\My Games\Fuck Numantian Games\Saves", in separate folders ordered by DateTime, so you can roll back to the moment you want.
 
 Installation:
 
