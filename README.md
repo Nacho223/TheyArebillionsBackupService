@@ -1,7 +1,7 @@
 # They Are Billions Backup Service
 Windows Service that autobackups save folder each time the game modifies a file.
 
-This program is born from true rage, after losing a true good survival scenario at the very end. Enjoy.
+This program is born from true rage, after losing a very good survival scenario at the very end. Enjoy.
 
 It saves every file stored in "Documents\My Games\They Are Billions" in "Documents\My Games\Fuck Numantian Games\Saves", in separate folders ordered by DateTime, so you can roll back to the moment you want.
 
