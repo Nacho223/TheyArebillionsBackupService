@@ -3,6 +3,8 @@ Windows Service that autobackups save folder each time the game modifies a file.
 
 Installation:
 
+****If you don't want to download the entire code, go to bin/release, download Release.rar and extract it on any folder.
+
 Copy the ..\bin\release folder anywhere. Run Command Prompt in admin mode from Task Manager --> Run. Go to the folder in CMD and write this command for 32bit or with Framework64 as below:
 
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\installutil.exe C:\[your folder]\FuckTheyAreBillions.exe
