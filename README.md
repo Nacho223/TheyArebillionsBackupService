@@ -11,6 +11,6 @@ EXAMPLE:
 
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\installutil.exe C:\Program Files\FuckTheyAreBillions\FuckTheyAreBillions.exe
 
-Then Windows will ask for Admin user and password (if you're in an Active Directory domain, set domain first: DOMAIN\User) and you will have service installed in automatic mode, but not running.
+Then Windows will ask for Admin user and password (if you're in an Active Directory domain, set domain first: DOMAIN\User) and you will have the service installed in automatic mode, but not running.
 
 If you want to start it, run services.msc and search for "FuckNumantian" --> Right mouse click --> Start, or simply restart your pc.
