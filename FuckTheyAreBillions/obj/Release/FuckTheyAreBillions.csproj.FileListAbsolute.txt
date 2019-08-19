@@ -1,0 +1,9 @@
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\bin\Release\FuckTheyAreBillions.exe.config
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\bin\Release\FuckTheyAreBillions.exe
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\bin\Release\FuckTheyAreBillions.pdb
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.csprojAssemblyReference.cache
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.ProjectInstaller.resources
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.csproj.GenerateResource.cache
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.csproj.CoreCompileInputs.cache
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.exe
+C:\Users\Shyrion.Mi-PCRA\source\repos\FuckTheyAreBillions\FuckTheyAreBillions\obj\Release\FuckTheyAreBillions.pdb
