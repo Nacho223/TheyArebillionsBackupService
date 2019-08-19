@@ -8,6 +8,7 @@ Copy the ..\bin\release folder anywhere. Run Command Prompt in admin mode from T
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\installutil.exe C:\[your folder]\FuckTheyAreBillions.exe
 
 EXAMPLE:
+
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\installutil.exe C:\Program Files\FuckTheyAreBillions\FuckTheyAreBillions.exe
 
 Then Windows will ask for Admin user and password (if you're in an Active Directory domain, set domain first: DOMAIN\User) and you will have service installed in automatic mode, but not running.
